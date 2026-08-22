@@ -1,0 +1,32 @@
+{
+  "name": "job-classifier-api",
+  "version": "1.0.0",
+  "description": "Job Classifier — API REST Node.js + Express + TypeScript | Backend com PostgreSQL",
+  "author": "Marcos Santos da Silva",
+  "license": "MIT",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "lint": "eslint src --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.11.0",
+    "eslint": "^9.13.0",
+    "tsx": "^4.19.0",
+    "typescript": "~5.6.0",
+    "typescript-eslint": "^8.11.0"
+  }
+}
