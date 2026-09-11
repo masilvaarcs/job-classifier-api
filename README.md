@@ -1,4 +1,9 @@
-# 🔌 Job Classifier — API REST (Node.js)
+# 🔌 Job Classifier — API REST (Node.js) — ⚠️ LEGADO
+
+> **Status: LEGADO (desde 2026-09-11).** Esta API REST não faz mais parte do fluxo ativo do projeto:
+> o frontend agora fala **gRPC-Web** com o serviço primário **`job-classifier-dotnet`** (porta 8000).
+> Veja a arquitetura atual em [../ARQUITETURA.md](../ARQUITETURA.md) e a migração em
+> [../MIGRACAO_GRPC.md](../MIGRACAO_GRPC.md). O código abaixo é mantido como referência histórica.
 
 > Backend com Express + TypeScript + PostgreSQL para gestão de vagas de emprego.
 
